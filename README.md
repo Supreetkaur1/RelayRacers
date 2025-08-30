@@ -62,6 +62,7 @@ Output:
 
 ```
 🌟 Features
+
 ✅ Clean modular codebase (headers + src + tests)
 
 ✅ Optimized for C++14
