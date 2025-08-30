@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.10)
+project(MaxRacers)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(include)
+
+add_executable(max_racers src/main.cpp src/racers.cpp)
+add_executable(sample_tests tests/sample_tests.cpp src/racers.cpp)
